@@ -2,12 +2,18 @@ package main
 
 import "fmt"
 
-func main () {
-	fmt.Println("Hello world!")
+var x int
+var y string
+var z bool
 
-	mySecondFunc()
-}
+func main() {
 
-func mySecondFunc () {
-	fmt.Println("This is my second function in Golang.")
+	x := 42
+	y := "James Bond"
+	z := true
+
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
+
 }
